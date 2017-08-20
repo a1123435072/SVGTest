@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="200dp"
+        android:height="200dp"
+        android:viewportHeight="100"
+        android:viewportWidth="100">
+    <!--viewportWidth:指的是将实际宽度分为100份 -->
+    <group android:name="simple">
+        <path
+            android:fillColor="@android:color/holo_blue_light"
+            android:strokeColor="@android:color/black"
+            android:strokeWidth="2"
+            android:pathData="
+            M 25,50
+            a 25 25 0 1 0 50 0"></path>
+    </group>
+
+</vector>
